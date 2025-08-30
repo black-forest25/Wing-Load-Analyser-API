@@ -1,0 +1,37 @@
+=== WING STRUCTURAL ANALYSIS TOOL ===
+Enter the following wing parameters:
+
+Wing semi-span (m) [default: 10]: 
+Average chord length (m) [default: 2]: 
+Total lift force (N) [default: 50000]:
+Wing weight (N) [default: 5000]:
+
+Material Properties:
+1. Aluminum (ρ=2700 kg/m³, E=70 GPa)
+2. Carbon Fiber (ρ=1600 kg/m³, E=150 GPa)
+3. Steel (ρ=7850 kg/m³, E=200 GPa)
+4. Custom
+Select material [1-4, default: 1]:
+Safety factor [default: 2.5]:
+
+=== INPUT SUMMARY ===
+Wing semi-span: 10.0 m
+Chord length: 2.0 m
+Total lift: 50000 N
+Wing weight: 5000 N
+Material density: 2700 kg/m³
+Elastic modulus: 70 GPa
+Safety factor: 2.5
+
+=== PERFORMING ANALYSIS ===
+1. Calculating lift distribution...
+Maximum lift per unit span: 6366 N/m
+Wing weight per unit span: 500 N/m
+2. Calculating shear force distribution...
+3. Calculating bending moment distribution...
+4. Calculating section properties...
+Wing thickness (estimated): 160.0 mm
+Second moment of area: 682.67 cm⁴
+5. Calculating stress distribution...
+Maximum bending stress (with SF=2.5): 54.8 MPa
+Analysis complete!
